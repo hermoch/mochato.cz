@@ -1,1 +1,139 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 479px) {
+  /*mobil na výšku*/
+  .container {
+    width: 92%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  /*mobil na šířku*/
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  /*tablet na výšku*/
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /*tablet na šířku*/
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /*počítač*/
+  .container {
+    width: 1100px;
+  }
+}
+
+@font-face {
+  font-family: 'KAGE-Freebies Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local("KAGE-Freebies Black"), url("KageFreebiesBlack-X3rVa.woff") format("woff");
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  text-transform: uppercase;
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  background: #646464;
+  width: 100%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 1em;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  background: lightblue;
+  color: #646464;
+}
+/*# sourceMappingURL=main.css.map */

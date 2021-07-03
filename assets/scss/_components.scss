@@ -1,0 +1,26 @@
+// HEADER 
+
+header {
+    width: 100%;
+
+    nav {
+        background: rgb(100, 100, 100);
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 1em;
+        color: #fff;
+
+        &:hover {
+            background: lightblue;
+            color: rgb(100, 100, 100);
+        }
+    }
+}

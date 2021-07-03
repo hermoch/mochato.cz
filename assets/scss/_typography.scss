@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: 'KAGE-Freebies Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KAGE-Freebies Black'), url('KageFreebiesBlack-X3rVa.woff') format('woff');
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    background-color: lightblue;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: black;
+        transition: 0.25s ease-in-out;
+        text-transform: uppercase;
+    }
+}
